@@ -4,32 +4,33 @@
 
 1. Menyambungkan ke server
 
-   ```
+   ```sh
    
-   > influx -host=192.168.0.1 -port=8086 -username=admin -password=admin
+   $ influx -host=192.168.0.1 -port=8086 -username=admin -password=admin
    
    ```
    
 2. Menyambungkan ke server dengan format waktu yang mudah dibaca
 
-   ```
-   > influx -host=192.168.0.1 -port=8086 -username=admin -password=password -precision rfc3339
+   ```sh
+   
+   $ influx -host=192.168.0.1 -port=8086 -username=admin -password=password -precision rfc3339
    
    ```
   
  3. Menambahkan user
 
-    ```
+    ```sh
 
-    > CREATE USER admin WITH PASSWORD 'password' WITH ALL PRIVILAGE
+    $ CREATE USER admin WITH PASSWORD 'password' WITH ALL PRIVILAGE
 
     ```
    
  4. Menampilkan daftar database
 
-    ```
+    ```sh
 
-    > SHOW DATABASES
+    $ SHOW DATABASES
 
     ```
 
