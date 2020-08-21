@@ -38,7 +38,7 @@
 
     ```
 
-    > SHOW USERS
+    $ SHOW USERS
 
     ```
   
@@ -46,7 +46,7 @@
  
     ```
 
-    > USE nama_database
-    > SHOW MEASUREMENTS
+    $ USE nama_database
+    $ SHOW MEASUREMENTS
 
     ```
